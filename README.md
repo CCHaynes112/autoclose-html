@@ -43,7 +43,7 @@ Will convert elements in Never Close list from `<br>` to `<br />`
 ## Legacy/International Mode
 
 Enables the old style of completion detection using buffer events rather than keybindings.
-Atom doesn't work well currently with non-US/non-QUERTY keyboards and will not correctly
+Atom doesn't work well currently with non-US/non-QWERTY keyboards and will not correctly
 fire events when '>' is pressed and/or fire events for entirely different keys.  **Please note that
 this mode is buggy (ie can complete after undo) and may not be compatible with new
 features and bug fixes in future releases, post-0.22.0** If/when the core issues behind
